@@ -1,0 +1,236 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Lotion",
+            "image": "../../../../../assets/img/lotion.jpg",
+            "nbProduct": 2
+        },
+        {
+            "id": 2,
+            "name": "Serum",
+            "image": "../../../../../assets/img/serum.jpg",
+            "nbProduct": 2
+        },
+        {
+            "id": 3,
+            "name": "Shampoing",
+            "image": "../../../../../assets/img/shampoing.jpg",
+            "nbProduct": 2
+        },
+        {
+            "id": 4,
+            "name": "Huile",
+            "image": "../../../../../assets/img/lotion.jpg",
+            "nbProduct": 2
+        },
+        {
+            "id": 5,
+            "name": "Masque",
+            "image": "../../../../../assets/img/lotion.jpg",
+            "nbProduct": 2
+        },
+        {
+            "id": 6,
+            "name": "Baume",
+            "image": "../../../../../assets/img/lotion.jpg",
+            "nbProduct": 2
+        },
+        {
+            "id": 7,
+            "name": "Spry",
+            "image": "../../../../../assets/img/lotion.jpg",
+            "nbProduct": 2
+        },
+        {
+            "id": 8,
+            "name": "Crème",
+            "image": "../../../../../assets/img/creme.jpg",
+            "nbProduct": 2
+        }
+
+    ],
+    "gammes": [
+        {
+            "id": 1,
+            "name": "Gamme Boster",
+            "price": "16.000",
+            "image": "../../../../../assets/img/gamm-booster.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Gamme Activ'Pouss (petit modele)",
+            "price": "8.000",
+            "image": "../../../../../assets/img/pack-amla.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Gamme Activ'Pouss (grand modele)",
+            "price": "15.000",
+            "image": "../../../../../assets/img/gamme activpouss grand.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Gamme Puissance",
+            "price": "25.000",
+            "image": "../../../../../assets/img/gamme-puissance.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Gamme mini (petit modele)",
+            "price": "10.000",
+            "image": "../../../../../assets/img/gamme mini petit.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Gamme activpouss mini (petit modele)",
+            "price": "10.000",
+            "image": "../../../../../assets/img/gamme-mini.webp"
+        }
+        
+    ],
+
+    "products": [
+        
+    {
+        "id": 1,
+        "name": "Lotion hydratante hibiscus aloe vera 250ml",
+        "image": "../../../../../assets/img/activpous-mini.jpg",
+        "price": "4500"
+  
+      },
+      {
+        "id": 2,
+        "name": "Serum pouss 60ml",
+        "image": "../../../../../assets/img/serum-extra-pouss.jpg",
+        "price": "5000"
+  
+      },
+      {
+        "id": 3,
+        "name": "Shampoing hyper doux au savon noir 250ml",
+        "image": "../../../../../assets/img/activpous-mini.jpg",
+        "price": "4500"
+  
+      },
+      {
+        "id": 4,
+        "name": "Bain d'huile 100ml",
+        "image": "../../../../../assets/img/activpous-mini.jpg",
+        "price": "4500"
+  
+      },
+      {
+        "id": 5,
+        "name": "Masque Hydratant et Nourrisant 300ml",
+        "image": "../../../../../assets/img/activpous-mini.jpg",
+        "price": "6000"
+  
+      },
+      {
+        "id": 6,
+        "name": "Lait hydratant douceur Aleo vera baobab 250ml",
+        "image": "../../../../../assets/img/hibuscus-aloe-vera.jpg",
+        "price": "5500"
+  
+      },
+      {
+        "id": 7,
+        "name": "Shampoing Kitité ricin 250ml",
+        "image": "../../../../../assets/img/activ-pouss-spry.jpg",
+        "price": "5000"
+  
+      },
+      {
+        "id": 8,
+        "name": "Spray fortifiant plantes secrètes 125ml",
+        "image": "../../../../../assets/img/activ-pouss-spry.jpg",
+        "price": "3000"
+  
+      },
+      {
+        "id": 9,
+        "name": "Spray fortifiant plantes secrètes 250ml",
+        "image": "../../../../../assets/img/activ-pouss-spry.jpg",
+        "price": "4500"
+  
+      },
+      {
+        "id": 10,
+        "name": "Serum extra pouss 50 ml",
+        "image": "../../../../../assets/img/activpous-mini.jpg",
+        "price": "7500"
+  
+      },
+      {
+        "id": 11,
+        "name": "Serum extra pouss 100 ml",
+        "image": "../../../../../assets/img/activpous-mini.jpg",
+        "price": "1000"
+  
+      },
+      {
+        "id": 12,
+        "name": "Baume croissance chebé 150",
+        "image": "../../../../../assets/img/activpous-mini.jpg",
+        "price": "4500"
+  
+      },
+      {
+        "id": 13,
+        "name": "Huile croissance chebé 60ml",
+        "image": "../../../../../assets/img/activpous-mini.jpg",
+        "price": "7500"
+  
+      },
+      {
+        "id": 14,
+        "name": "Lotion hydratante aloe vera 125ml",
+        "image": "../../../../../assets/img/produit-2.jpg",
+        "price": "3000"
+  
+      },
+      {
+        "id": 15,
+        "name": "Lotion hydratante aloe vera 250ml",
+        "image": "../../../../../assets/img/activpous-mini.jpg",
+        "price": "4500"
+  
+      },
+      {
+        "id": 16,
+        "name": "Crème volume charlotte aux fraises 100ml",
+        "image": "../../../../../assets/img/aloe-fraise.jpg",
+        "price": "3500"
+  
+      },
+      {
+        "id": 17,
+        "name": "Crème volume charlotte aux fraises 200ml",
+        "image": "../../../../../assets/img/activpous-mini.jpg",
+        "price": "5000"
+  
+      },
+      {
+        "id": 18,
+        "name": "Serum pouss 60ml",
+        "image": "../../../../../assets/img/activpous-mini.jpg",
+        "price": "4000"
+  
+      },
+      {
+        "id": 19,
+        "name": "Serum pouss 100ml",
+        "image": "../../../../../assets/img/activpous-mini.jpg",
+        "price": "5000"
+  
+      },
+      {
+        "id": 20,
+        "name": "Shampoing hyper doux au savon noir 125ml",
+        "image": "../../../../../assets/img/activpous-mini.jpg",
+        "price": "3000"
+  
+      }
+    ]
+}

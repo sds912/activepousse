@@ -1,0 +1,37 @@
+.go-top{
+    background-color: #21B76D;
+    color: #FFFFFF;
+}
+
+.fa{
+    color: #FFFFFF;
+}
+
+.fab{
+    color: #A92471;
+}
+.btn-primary{
+    background-color: #A92471 !important;
+    color: #FFFFFF !important;
+    border-bottom-right-radius: 6px !important;
+    border-top-right-radius: 6px !important;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius: 50%;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}

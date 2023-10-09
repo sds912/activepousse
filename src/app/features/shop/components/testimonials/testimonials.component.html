@@ -1,0 +1,8 @@
+<div *ngFor="let t of testiomnialData" id="craouselContainer" class="swiper-container">
+    <div class="swiper-wrapper" id="slideHolder">
+        <div class="swiper-slide"> <div class="ImgHolder"><img [src]="t.avatar"></div><div class="ContentHolder"><h3>{{t.name}}</h3><p>{{t.review}}</p></div></div>
+
+    </div>
+    <div class="swiper-pagination"></div>
+    
+</div>

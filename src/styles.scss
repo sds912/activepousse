@@ -1,1 +1,24 @@
+
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
 /* You can add global styles to this file, and also import other style files */
+$pink-color: #FCA5B8;
+$yello-color: #FED595;
+$white-color: #FFFFFF;
+$green-color: #21B76D;
+
+.bg-primary{
+  background-color: #ffcc79 !important;
+  border-radius: 0 !important;
+}
+
+.btn{
+    border-radius: 0 !important;
+    border: 0 !important;
+}
+
+a{
+  text-decoration: none !important;
+}
