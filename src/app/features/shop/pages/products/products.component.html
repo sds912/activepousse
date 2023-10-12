@@ -1,0 +1,58 @@
+
+<app-nav [categories]="data!.categories"></app-nav>
+
+
+<!-- Products Start -->
+<div id="activpouss">
+    <app-gamme-list  [produits]="data?.categories[0].products" [title]="'Gamme Activpouss'"></app-gamme-list>
+</div>
+<!-- Products End -->
+
+<!-- Products Start -->
+<app-product-list id="mini" [produits]="data?.categories[1].products" [title]="'Gamme Mini (princesses)'"></app-product-list>
+<!-- Products End -->
+
+<!-- Products Start -->
+<app-product-list id="accessoire" [produits]="data?.categories[2].products" [title]="'Accessoires cheveux'"></app-product-list>
+<!-- Products End -->
+
+
+<!-- Offer Start -->
+<div class="container-fluid pt-5 pb-3">
+    <div class="row px-xl-5">
+        <div class="col-md-6">
+            <div class="product-offer mb-30" style="height: 300px;">
+                <img class="img-fluid" src="../../../../../assets/img/gamme-booster.jpg" alt="">
+                <div class="offer-text">
+                    <h6 class="text-white text-uppercase">Offre Spéciale</h6>
+                    <h3 class="text-white mb-3">Gamme Booster</h3>
+                    <a href="" class="btn text-white offer-btn">Commandez</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="product-offer mb-30" style="height: 300px;">
+                <img class="img-fluid" src="../../../../../assets/img/gamme-mini.jpg" alt="">
+                <div class="offer-text">
+                    <h6 class="text-white text-uppercase">Offre Spéciale</h6>
+                    <h3 class="text-white mb-3">Gamme Activ'pouss mini</h3>
+                    <a href="" class="btn text-white offer-btn" >Commandez</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Offer End -->
+
+
+
+<!-- Testimonials Start -->
+<!-- <app-testimonials></app-testimonials> -->
+<!-- Testimonials End -->
+
+<!--Footer Start-->
+<app-footer></app-footer>
+<!--Footer End-->
+
+
+

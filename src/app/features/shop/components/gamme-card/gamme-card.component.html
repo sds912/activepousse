@@ -1,6 +1,6 @@
 <div class="product-item bg-light mb-4" >
     <div class="product-img position-relative overflow-hidden text-center">
-        <img class="img-fluid" style=" height: 300px;"  [src]="produit.image" [alt]="produit.name">
+        <img class="img-fluid"   [src]="produit.image" [alt]="produit.name">
         <div class="product-action">
             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
             <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
@@ -8,10 +8,8 @@
             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
         </div>
     </div>
-    <div class="text-center py-4" >
-        <div style="height: 35px;">
-            <a [routerLink]="'/product/details/'+produit?.id" class="h6 text-decoration-none  text-center" style="display: block; max-width: 100%; text-transform: capitalize;"  >{{produit.name}}</a>
-        </div>
+    <div class="text-center py-4">
+        <a [routerLink]="'product/details/'+produit?.id" class="h6 text-decoration-none  text-center" style="display: block; max-width: 100%;"  >{{produit.name}}</a>
         <div class="d-flex align-items-center justify-content-center mt-2">
             <h5>CFA {{produit.price}}</h5>
         </div>

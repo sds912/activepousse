@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, ViewChild } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { ProductService } from 'src/app/core/services/product.service';
 
@@ -11,7 +11,9 @@ export class ProductDetailsPageComponent {
 
   public produit: any;
   public relatedProducts: any[] = [];
+  public quantite = 1;
   constructor(private route: ActivatedRoute, private productService: ProductService){
+    this.scrollToTop();
 
   }
 
@@ -20,18 +22,30 @@ export class ProductDetailsPageComponent {
       this.productService.getProducts()
       .subscribe((response: any) =>{
         const products: any[] = response!.products;
-        console.log(products)
-
        this.relatedProducts = products;
         products!.forEach(p => {
           if(p.id == r.get('id')){
-
             this.produit = p;
-            console.log(p)
           }
         })
       })
     })
+
+    
+  }
+
+  scrollToTop() {
+    window.scrollTo(0,0)
+  }
+
+  decrease(){
+    if(this.quantite > 1){
+      this.quantite -= 1;
+    }
+  }
+
+  increase(){
+    this.quantite += 1;
   }
 
 }

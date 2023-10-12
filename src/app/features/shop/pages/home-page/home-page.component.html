@@ -44,7 +44,17 @@
     <!--Categories End-->
 
     <!-- Products Start -->
-     <app-gamme-list [produits]="data?.gammes" [title]="'Nos gammes'"></app-gamme-list>
+    <div id="activpouss">
+        <app-gamme-list  [produits]="data?.categories[0].products" [title]="'Gamme Activpouss'"></app-gamme-list>
+    </div>
+    <!-- Products End -->
+
+    <!-- Products Start -->
+    <app-product-list id="mini" [produits]="data?.categories[1].products" [title]="'Gamme Mini (princesses)'"></app-product-list>
+    <!-- Products End -->
+
+    <!-- Products Start -->
+    <app-product-list id="accessoire" [produits]="data?.categories[2].products" [title]="'Accessoires cheveux'"></app-product-list>
     <!-- Products End -->
 
 
@@ -75,10 +85,6 @@
     </div>
     <!-- Offer End -->
 
-
-    <!-- Products Start -->
-    <app-product-list [produits]="data?.products" [title]="'Nos produits'"></app-product-list>
-    <!-- Products End -->
 
 
     <!-- Testimonials Start -->

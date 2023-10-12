@@ -2,16 +2,24 @@
 <div class="container-fluid pt-5">
     <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="bg-green ry pr-3">Categories</span></h2>
     <div class="row px-xl-5 pb-3">
-        <div *ngFor="let cat of categories" class="col-lg-3 col-md-4 col-sm-6 pb-1">
-            <a class="text-decoration-none" href="">
-                <div class="cat-item d-flex align-items-center mb-4">
+        <div *ngFor="let cat of categories" class="col-lg-4 col-md-4 col-sm-6 pb-1">
+            <a class="text-decoration-none" href="{{cat.path}}">
+                <div class="cat-item d-flex align-items-top mb-4">
                     <div class="overflow-hidden" style="width: 100px; height: 100px;">
                         <img class="img-fluid" [src]="cat.image" [alt]="cat.name">
                     </div>
                     <div class="flex-fill pl-3">
                         <h6 class="cat-title">{{cat.name}}</h6>
-                        <small class="text-body">{{cat.nbProduct}} Produits</small>
+                        <small class="text-body">{{cat.products.length}} Produits</small>
+                        <div class="d-flex align-items-center justify-content-left mb-1 mt-2">
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small class="fa fa-star text-primary mr-1"></small>
+                        </div>
                     </div>
+                    
                 </div>
             </a>
         </div>

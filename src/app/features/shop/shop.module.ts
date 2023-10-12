@@ -13,11 +13,12 @@ import { PaiementPageComponent } from './pages/paiement-page/paiement-page.compo
 import { ShopRoutingModule } from './shop-routing.module';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { ProdutHeaderCarouselComponent } from './components/produt-header-carousel/produt-header-carousel.component';
-import { CategorieProduitCarouselComponent } from './components/categorie-produit-carousel/categorie-produit-carousel.component';
 import { ProduitCategoriesComponent } from './components/produit-categories/produit-categories.component';
 import { GammeListComponent } from './components/gamme-list/gamme-list.component';
 import { CartPageComponent } from './pages/cart-page/cart-page.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
+import { GammeCardComponent } from './components/gamme-card/gamme-card.component';
+import { ProductsComponent } from './pages/products/products.component';
 
 
 
@@ -35,11 +36,12 @@ import { TestimonialsComponent } from './components/testimonials/testimonials.co
     HomePageComponent,
     PaiementPageComponent,
     ProdutHeaderCarouselComponent,
-    CategorieProduitCarouselComponent,
     ProduitCategoriesComponent,
     GammeListComponent,
     CartPageComponent,
-    TestimonialsComponent
+    TestimonialsComponent,
+    GammeCardComponent,
+    ProductsComponent
   ],
   imports: [
     CommonModule,
