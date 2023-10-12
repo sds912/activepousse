@@ -86,7 +86,7 @@
                 </a>
                 <nav class="collapse position-absolute navbar navbar-vertical navbar-light align-items-start p-0 bg-light" id="navbar-vertical" style="width: calc(100% - 30px); z-index: 999;">
                     <div class="navbar-nav w-100">
-                        <a *ngFor="let cat of categories" href="" class="nav-item nav-link">{{cat.name}}</a>
+                        <a *ngFor="let cat of categories" [href]="cat.path" class="nav-item nav-link">{{cat.name}}</a>
                     </div>
                 </nav>
             </div>
@@ -101,7 +101,7 @@
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto py-0">
                             <a [routerLink]="''" class="nav-item nav-link active">Acceuil</a>
-                            <a routerLink="" class="nav-item nav-link">La boutique</a>
+                            <a routerLink="/products" class="nav-item nav-link">La boutique</a>
                             <a [routerLink]="'contact'" [routerLinkActive]="'./contact'" class="nav-item nav-link">Nous-contacter</a>
                         </div>
                         <div class="navbar-nav ml-auto py-0 d-none d-lg-block">
