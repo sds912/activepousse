@@ -1,5 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { Router } from '@angular/router';
+import { ProductService } from 'src/app/core/services/product.service';
+import { ProduitService } from 'src/app/shared/services/produit.service';
 
 @Component({
   selector: 'app-product-card',
@@ -10,7 +12,7 @@ export class ProductCardComponent {
 
   @Input() produit: any;
 
-  constructor(private router: Router){
+  constructor(private router: Router, private productService: ProduitService){
 
   }
 
@@ -18,6 +20,10 @@ export class ProductCardComponent {
 
   goToDetails(){
     this.router.navigate(['product/details'])
+  }
+
+  addToCart(product: any){
+    this.productService.addProductToCard(product);
   }
 
 }

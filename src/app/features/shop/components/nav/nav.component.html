@@ -1,5 +1,5 @@
    <!-- Topbar Start -->
-   <div class="container-fluid">
+   <div class="container-fluid ">
     <!--
       <div class="row bg-secondary py-1 px-xl-5">
           <div class="col-lg-6 d-none d-lg-block">
@@ -77,7 +77,7 @@
   <!-- Topbar End -->
 
      <!-- Navbar Start -->
-     <div class="container-fluid mb-30 " style="background-color: #A92471 !important;">
+     <div class="container-fluid mb-30 sticky-top" style="background-color: #A92471 !important;">
         <div class="row px-xl-5">
             <div class="col-lg-3 d-none d-lg-block">
                 <a class="btn d-flex border-none align-items-center justify-content-between  w-100" data-toggle="collapse" href="#navbar-vertical" style="height: 65px; padding: 0 30px; background-color: #2C8029 !important;">
@@ -108,7 +108,7 @@
                            
                             <a [routerLink]="'/cart'" class="btn px-0 ml-3">
                                 <i class="fas fa-shopping-cart" style="color: #ffcc79;"></i>
-                                <span class="badge cart text-secondary border border-secondary rounded-circle" style="padding-bottom: 2px;">0</span>
+                                <span class="badge cart text-secondary border border-secondary rounded-circle text-white" style="padding-bottom: 2px; ">{{cart!.length}}</span>
                             </a>
                         </div>
                     </div>
